@@ -6,14 +6,14 @@ $(document).ready(function () {
      Formulário
   */
   $("#cliqueAqui").click(function () {
-    $("#divForm").toggle("slow", function () {
+    $("#divForm").slideToggle("slow", function () {
       //Se precisar executar algo após o carregamento da animação colocar aqui.
-      $("#compartilhe").toggle();
+      $("#compartilhe").slideToggle();
     });
   });
 
   $("#botaoenviar").click(function () {
-    $(".containerglassmorph").toggle("slow", function () {
+    $(".containerglassmorph").slideToggle("slow", function () {
       //Se precisar executar algo após o carregamento da animação colocar aqui.
       $('#cliqueAqui').hide()
       $('#divForm').hide()
@@ -21,12 +21,12 @@ $(document).ready(function () {
   });
   /* Animações Tópico Enviado */
   $("#cliqueAqui2").click(function () {
-    $("#divForm").toggle("slow", function () {
+    $("#divForm").slideToggle("slow", function () {
       //Se precisar executar algo após o carregamento da animação colocar aqui.
-      $("#compartilhe").toggle();
+      $("#compartilhe").slideToggle();
       $('.containerglassmorph').hide()
       $('#compartilhe').hide()
-      $('#cliqueAqui').toggle(function () {
+      $('#cliqueAqui').slideToggle(function () {
 
       });
     });
