@@ -215,7 +215,7 @@ section .tituloh2 {
     letter-spacing: 0.02em;
     width: 1028px;
     height: 114px;
-    padding: 15px;
+    padding: 25px;
     overflow-y: hidden;
 
 }
@@ -577,6 +577,8 @@ textarea {
 
 .rolagem {
     overflow-y: scroll;
+    width: 241px;
+    height: 364;
     max-height: calc(100vh - 300px);
 }
 
